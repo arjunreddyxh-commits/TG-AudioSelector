@@ -7,9 +7,9 @@
 import os
 
 # Telegram API credentials
-API_ID =   # Replace with your API ID
-API_HASH = ""  # Replace with your API Hash
-BOT_TOKEN = ""  # Replace with your Bot Token
+API_ID = "20232047"  # Replace with your API ID
+API_HASH = "ec4fab92f1d53f4b62db607225d994ad"  # Replace with your API Hash
+BOT_TOKEN = "8453801765:AAGQ8qUJC3Do4ZrnpdcnTCrpxPyesJk1VbA"  # Replace with your Bot Token
 
 # ----------------------------------------
 # 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
@@ -27,21 +27,18 @@ DOWNLOAD_DIR = "downloads"
 # --
 
 # Allowed group IDs
-ALLOWED_GROUP_IDS = [
-    ,  # Your group ID from logs
-    # Add more group IDs as needed
-]
-
+ALLOWED_GROUP_IDS = [-1003233877421]
+    , 
 # Owner user ID
-OWNER_ID =   # Owner's user ID
+OWNER_ID = "5897344532"# Owner's user ID
 
 # Maximum file size (e.g., 4GB)
 MAX_FILE_SIZE = 4 * 1024 * 1024 * 1024  # 4GB in bytes
 
 # Premium users and daily limits
-PREMIUM_USERS = {5756495153}  # Add premium user IDs here
-DAILY_LIMIT_FREE = 15  # Videos per day for free users
-DAILY_LIMIT_PREMIUM = 30  # Videos per day for premium users
+PREMIUM_USERS = {5897344532}  # Add premium user IDs here
+DAILY_LIMIT_FREE = 30  # Videos per day for free users
+DAILY_LIMIT_PREMIUM = 60  # Videos per day for premium users
 
 # Ensure download directory exists
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
